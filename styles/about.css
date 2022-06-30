@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(40deg, rgb(77, 77, 77), rgb(58, 58, 58));
+    color: rgb(68, 68, 68);
+}
+
+header{
+    background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+}
+
+#about {
+    background-color: white;
+    width: 75%;
+    max-width: 32rem;
+    margin: 3.5rem auto;
+    padding: 1rem 2rem;
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.2);
+    border-radius: 6px;
+    text-align: center;
+}
+
+#about h2{
+    font-weight: bold;
+    margin: 0;
+}
+
+#about p{
+    text-align: left;
+}
+
+#page-logo a {
+    color: rgb(183, 230, 235);
+}
+
+header a {
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+    color: rgb(59, 59, 59);
+    background-color: rgb(183, 230, 235);
+}
+
+#name{
+    font-style: italic;
+    color: rgb(162, 18, 18);
+}
+
+#about a{
+    text-decoration: none;
+    color: rgb(172, 12, 12);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
